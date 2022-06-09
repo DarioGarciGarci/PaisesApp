@@ -12,4 +12,10 @@ export class PorPaisComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  termino: string = '';
+
+  buscar() {
+    console.log(this.termino);
+  }
+
 }
